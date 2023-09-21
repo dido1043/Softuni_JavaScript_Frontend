@@ -8,3 +8,8 @@
   color: black;
   cursor: pointer;
 }
+.joinBtn:hover {
+  
+  background-color: red;
+
+}
