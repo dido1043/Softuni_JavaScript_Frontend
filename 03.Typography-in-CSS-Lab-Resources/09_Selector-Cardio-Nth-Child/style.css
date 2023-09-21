@@ -1,0 +1,5 @@
+article>span:first-of-type,
+article>span:last-of-type{
+    background: red;
+    color: white;
+}
