@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+#container{
+    text-align: center;
+}
+#container h1{
+    font-family: Sentinel A, Sentinel B, Georgia serif;
+    font-weight: 400;
+    height: 1.15;
+    color: #747474;
+}
+
+#container p:first-of-type{
+    font-weight: 600;
+    font-size: 16px;
+}
