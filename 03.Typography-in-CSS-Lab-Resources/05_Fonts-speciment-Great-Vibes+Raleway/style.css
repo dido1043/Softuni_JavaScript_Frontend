@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:ital@1&family=Roboto:ital@1&family=Sedgwick+Ave+Display&display=swap');
+
+
+h2 {
+    font-family: Raleway, sans-serif ;
+    font-size: 16px;
+    line-height: 1.5;
+    padding:3em
+}
+p{
+    padding-left: 3em;
+}
+ul{
+    padding-left: 4em;
+}
+ul li{
+    list-style-type: square;
+}
+ul ul li{
+    list-style: disc;
+}
+
+ul ul ul li{
+    list-style: circle;
+}
