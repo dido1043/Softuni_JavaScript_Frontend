@@ -1,0 +1,15 @@
+body{
+    background-image: url(livingroom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    height: 450px; 
+}
+h1{
+    position: absolute;
+    top:45%;
+    left:40%;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}
