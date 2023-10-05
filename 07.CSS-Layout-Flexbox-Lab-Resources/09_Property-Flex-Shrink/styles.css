@@ -10,4 +10,8 @@
   padding: 20px;
   font-size: 30px;
   flex-basis: 120px;
+  
 }
+#one{flex-shrink: 0;}
+#two{flex-shrink: 1;}
+#three{flex-shrink: 2;}
