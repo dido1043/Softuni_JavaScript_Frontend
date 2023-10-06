@@ -12,6 +12,6 @@
   flex-basis: 120px;
   
 }
-#one{flex-shrink: 0;}
-#two{flex-shrink: 1;}
-#three{flex-shrink: 2;}
+.flex-container > #box1{flex-shrink: 0;}
+.flex-container > #box2{flex-shrink: 1;}
+.flex-container > #box3{flex-shrink: 2;}
