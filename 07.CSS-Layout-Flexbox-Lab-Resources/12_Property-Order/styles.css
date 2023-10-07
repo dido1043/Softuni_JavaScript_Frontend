@@ -23,4 +23,8 @@
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  flex-wrap: wrap-reverse;
 }
+.flex-container > #box1{order: 2;}
+.flex-container > #box2{order: 0;}
+.flex-container > #box3{order: 1;}
