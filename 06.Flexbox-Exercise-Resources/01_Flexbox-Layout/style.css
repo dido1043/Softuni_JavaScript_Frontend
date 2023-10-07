@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEE;
+    font-family: sans-serif;
+    padding: 5rem;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+p {
+    margin: 0;
+}
+.container > * {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    box-shadow:0 0 10px 0 #000;
+    
+}
+
+.site-header{
+    flex-basis: 100%;
+}
+.site-main{
+    flex: 8 1 40rem;
+    
+}
+.site-aside{
+    flex: 2 1 20rem;
+}
+.site-footer{
+    margin-top: auto;
+    flex-basis: 100%;
+}
