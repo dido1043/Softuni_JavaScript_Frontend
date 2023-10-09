@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    padding: 15%  10%;
+    display: flex;
+    gap: 2em;
+}
+
+.container span{
+    flex-wrap: wrap;
+    
+}
