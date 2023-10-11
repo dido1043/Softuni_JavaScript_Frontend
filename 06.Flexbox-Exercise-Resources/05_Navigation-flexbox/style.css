@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+
+}
+
+h1 {
+    font: 32px/1.5 Verdana, sans-serif;
+}
+h2{font-size: 24px; font-family: 'Times New Roman', Times, sans-serif;}
+
+body {
+    padding: 2em;
+}
+
+.content {
+    padding: 1.5rem 4rem;
+}
+
+.content>nav {
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.content>nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: flex-end;
+    gap: 1em;
+
+}
+
+.content>nav ul li {
+    cursor: pointer;
+    list-style: none;
+    color: #06af06;
+}
+
+.content>main{
+    padding-top: 2em;
+}
