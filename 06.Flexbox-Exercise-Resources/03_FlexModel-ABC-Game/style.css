@@ -1,0 +1,19 @@
+.container{ 
+    padding: 3em 3em;
+    display: flex;
+}
+.element ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.element ul li{
+    border: 2px solid black;            
+    padding: 1em 2em;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
